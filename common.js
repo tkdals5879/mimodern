@@ -71,7 +71,7 @@ document.addEventListener("DOMContentLoaded", () => {
 		submenu.style.maxHeight = "0"
 		submenu.style.opacity = "0"
 	});
-	subitem.forEach((item, index, array) => {
+	subitem.forEach((item) => {
 		item.addEventListener("mouseenter", () => {
 			item.style.color = "bisque"
 		});
@@ -157,7 +157,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 	// // ▲ sticky number change event **************************************************
 
-	var img_swiper = new Swiper(".img_mySwiper", {
+	const img_swiper = new Swiper(".img_mySwiper", {
 		centeredSlides: true,
 		loop: true,
 		simulateTouch: false,
