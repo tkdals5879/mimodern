@@ -127,7 +127,7 @@ document.addEventListener("DOMContentLoaded", () => {
 			trigger: ".ab_title",
 			start: "top center",
 			endTrigger: ".section_sticky",
-			end: `+=${stickyHeight + 250}px`,
+			end: `+=${stickyHeight + 300}px`,
 			pin: true,
 			pinSpacing: false,
 			anticipatePin: 1,
