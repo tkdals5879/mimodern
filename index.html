@@ -1,0 +1,1184 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Modern</title>◊
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="media.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.1/ScrollToPlugin.min.js"></script>
+
+  <script src="https://kit.fontawesome.com/7b1749db16.js" crossorigin="anonymous"></script>
+  <script src="common.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+
+<body>
+  <header>
+    <div class="header_i">
+      <div class="lineup_box">
+        <ul class="main_menu">
+          <li class="eng" id="lineup">Line up <span>▼</span></li>
+          <ul class="sub_menu">
+            <div class="padding">
+              <li><a href="#">하이엔드 안티에이징<span><img src="./img/right_arrow.png" alt="right_arrow"></span></a></li>
+              <li><a href="#">클리어 색소<span><img src="./img/right_arrow.png" alt="right_arrow"></span></a>
+              </li>
+              <li><a href="#">핏 보톡스/필러<span><img src="./img/right_arrow.png" alt="right_arrow"></span></a>
+              </li>
+              <li><a href="#">노모어 아크네<span><img src="./img/right_arrow.png" alt="right_arrow"></span></a>
+              </li>
+            </div>
+          </ul>
+        </ul>
+      </div>
+      <div class="logo">
+        <h1><a href="#"><img src="./img/top_logo.png" alt="logo"></a></h1>
+      </div>
+      <div class="top_right">
+        <a href="https://map.naver.com/p/search/%EB%AF%B8%EB%AA%A8%EB%8D%98%ED%94%BC%EB%B6%80%EA%B3%BC%EC%9D%98%EC%9B%90/place/1388288696?c=15.62,0,0,0,dh&isCorrectAnswer=true"
+          target="_blank">
+          <p style="transition: .3s;">
+            <span><img src="./img/top_addr_icon.png" alt="addr_icon"></span>
+            수서역 4번출구 로즈데일 빌딩 2층
+          </p>
+        </a>
+        <div class="ham">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+      </div>
+      <div class="call_icon">
+        <img src="./img/call_icon_w.png" alt="call_icon_w">
+      </div>
+    </div>
+
+    <div class="header_dropdown_menu">
+      <div class="header">
+        <figure>
+          <img src="./img/sitemap_logo.png" alt="sitemap_logo">
+        </figure>
+        <div class="header_r">
+          <ul>
+            <li><a href="#">로그인</a></li>
+            <li><a href="#">회원가입</a></li>
+          </ul>
+          <button type="button" class="xbtn">
+            <img src="./img/sitemap_xbu.png" alt="sitemap_xbu">
+          </button>
+        </div>
+      </div>
+      <div class="wrap">
+        <div class="left">
+          <div class="top">
+            <ul>
+              <li class="main_menu">
+                <a href="#">미모던스토리</a>
+                <ul class="sub_menu">
+                  <li><a href="#">브랜드 에센스</a></li>
+                  <li><a href="#">의료진 소개</a></li>
+                  <li><a href="#">시술장비</a></li>
+                  <li><a href="#">진료안내/오시는길</a></li>
+                </ul>
+              </li>
+              <li class="main_menu">
+                <a href="#">안티에이징</a>
+                <ul class="sub_menu">
+                  <li><a href="#">리프팅</a></li>
+                  <li><a href="#">스킨부스터</a></li>
+                  <li><a href="#">윤곽조형술</a></li>
+                </ul>
+              </li>
+              <li class="main_menu">
+                <a href="#">색소/혈관</a>
+                <ul class="sub_menu">
+                  <li><a href="#">기미/흑자/검버섯</a></li>
+                  <li><a href="#">난치성색소</a></li>
+                  <li><a href="#">안면홍조</a></li>
+                  <li><a href="#">문신치료</a></li>
+                </ul>
+              </li>
+              <li class="main_menu">
+                <a href="#">여드름/흉터</a>
+                <ul class="sub_menu">
+                  <li><a href="#">여드름</a></li>
+                  <li><a href="#">흉터/튼살</a></li>
+                  <li><a href="#">모공</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div class="bottom">
+            <ul>
+              <li class="main_menu mm1">
+                <a href="#">쁘띠/스킨케어</a>
+                <ul class="sub_menu">
+                  <li><a href="#">보톡스/필러</a></li>
+                  <li><a href="#">맞춤수액</a></li>
+                  <li><a href="#">비만/체형교정</a></li>
+                  <li><a href="#">제모</a></li>
+                  <li><a href="#">메디컬스킨케어</a></li>
+                </ul>
+              </li>
+              <li class="main_menu mm2">
+                <a href="#">피부질환</a>
+                <ul class="sub_menu">
+                  <li><a href="#">피부종양</a></li>
+                  <li><a href="#">탈모</a></li>
+                  <li><a href="#">손발톱무좀</a></li>
+                </ul>
+              </li>
+              <li class="main_menu mm3">
+                <a href="#">커뮤니티</a>
+                <ul class="sub_menu">
+                  <li><a href="#">이벤트ㆍ공지사항</a></li>
+                  <li><a href="#">전후사진</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="right">
+          <img src="./img/sitemap_img.jpg" alt="sitemap_img">
+        </div>
+      </div>
+    </div>
+
+  </header>
+  <!-- //header -->
+
+  <!-- main -->
+  <main id="main">
+    <figure class="full_mainbg">
+      <img src="./img/main_bg.jpg" alt="main">
+    </figure>
+    <div class="mainbg_centerbox">
+      <figure class="mainbg_1200">
+        <img src="./img/main_bg_1200.jpg" alt="main_bg_1200">
+      </figure>
+    </div>
+    <div class="maintext">
+      <h2 class="eng">High End Beauty <br>
+        Be modern, Mi modern</h2>
+      <p>미모던은 ‘미모’와 ‘던(DAWN_새벽)’의 합성어로 따뜻한 아침 빛처럼 밝아져 오는 <br>
+        아름다움을 상징합니다. 고객님의 소중한 피부에 아름다움이 더해지도록 <br>
+        미모던피부과는 최선을 다하겠습니다.</p>
+    </div>
+  </main>
+  <!-- //main -->
+
+  <!-- section -->
+  <section>
+    <!-- section01 -->
+    <div class="section01" id="section01">
+      <div class="text">
+        <h3 class="eng scroll_item_top_to_bottom">Signature Program</h3>
+        <span class="scroll_item_top_to_bottom">미모던피부과는 본연의 모습에 집중합니다.</span>
+        <p class="scroll_item_top_to_bottom t_delay">
+          자연스러운 모습에서 조금 더 특별해질 수 있도록 개인의 피부고민에 맞는 <br>
+          1:1 맞춤 시술을 진행합니다.
+        </p>
+      </div>
+      <div class="contents">
+        <div class="box b1 scroll_item_bottom_to_top">
+          <figure>
+            <img src="./img/section01_1.jpg" alt="section1_1">
+            <span></span>
+          </figure>
+          <div class="box_inner_text">
+            <h2 class="eng">High-End <br>
+              <span class="strong">Anti aging</span>
+            </h2>
+            <p>손끝으로 걷어 올리는 시간의 장막 <br> 최선의 나와 마주보기</p>
+          </div>
+          <a href="#">안티에이징 <span><img src="./img/mw1_bn_link_arrow.png" alt="bn_link_arrow"></span></a>
+        </div>
+        <div class="box b2 scroll_item_bottom_to_top">
+          <figure>
+            <img src="./img/section01_2.jpg" alt="section1_2">
+          </figure>
+          <div class="box_inner_text">
+            <h2 class="eng">Clear <br> <span class="strong"> Pigmentation </span></h2>
+            <p>피부 본연의 색을 찾는 시간 <br> 더 자연스럽게 더 맑게</p>
+          </div>
+          <a href="#">색소질환 <span><img src="./img/mw1_bn_link_arrow.png" alt="bn_link_arrow"></span></a>
+        </div>
+        <div class="box b3 scroll_item_bottom_to_top">
+          <figure>
+            <img src="./img/section01_3.jpg" alt="section1_3">
+            <div class="spanbox">
+              <span class="top"></span>
+              <span class="left"></span>
+              <span class="right"></span>
+              <span class="bottom"></span>
+            </div>
+          </figure>
+          <div class="box_inner_text">
+            <h2 class="eng">Fit <br> <span class="strong">Botox</span></h2>
+            <p>맞춤 수트처럼 내 얼굴에 <br> 맞춘 1:1 퍼펙트 핏 시술</p>
+          </div>
+          <a href="#">보톡스·필러 <span><img src="./img/mw1_bn_link_arrow.png" alt="bn_link_arrow"></span></a>
+        </div>
+      </div>
+    </div>
+    <!-- //section01 -->
+    <div class="section_sticky">
+      <div class="ab_title">
+        <h2 class="eng"><span>Mimodern</span> Speciality</h2>
+        <p>01</p>
+      </div>
+      <!-- section02 -->
+      <div class="section02" id="section02">
+        <div class="contents">
+          <div class="left">
+            <p class="serif scroll_item_top_to_bottom">아름다움이 밝아오는 <br>
+              미모던피부과만의 특별함</p>
+            <span class="serif scroll_item_top_to_bottom">아침빛처럼 환하고 따뜻하게 <br>
+              번지기 시작한 따스함이 얼굴에 내려 앉을 때 <br>
+              그 자연스러움이 더욱 특별하도록 <br>
+              당신을 더 모던하게</span>
+            <div class="essence_btn scroll_item_top_to_bottom">
+              <a href="#">브랜드 에센스<span><img src="./img/right_arrow.png" alt="r_arrow"></span></a>
+            </div>
+          </div>
+          <div class="right">
+            <div class="swiper img_mySwiper">
+              <div class="swiper-wrapper scroll_item_bottom_to_top">
+                <div class="swiper-slide"><img src="./img/section02_1.jpg" alt="section02_1"></div>
+                <div class="swiper-slide"><img src="./img/section02_2.jpg" alt="section02_2"></div>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+            <div class="textbox">
+              <p class="serif scroll_item_top_to_bottom">1:1 커스터마이징 케어</p>
+              <span class="scroll_item_top_to_bottom t_delay">처음부터 끝까지 전문가의 손끝으로 완성하는 작품</span>
+              <div class="arrowbtn scroll_item_top_to_bottom">
+                <a href="#"><img src="./img/link_arrow.png" alt="link_arrow"></a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <!-- //section02 -->
+
+      <!-- section03 -->
+      <div class="section03" id="section03">
+        <div class="left">
+          <div class="swiper img_mySwiper">
+            <div class="swiper-wrapper scroll_item_bottom_to_top">
+              <div class="swiper-slide"><img src="./img/section03_l_1.jpg" alt="section03_l_1"></div>
+              <div class="swiper-slide"><img src="./img/section03_l_2.jpg" alt="section03_l_2"></div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+          <div class="textbox">
+            <span class="scroll_item_top_to_bottom">머무름이 휴식이 되는 오롯한 나만의 공간</span>
+            <p class="serif scroll_item_top_to_bottom t_delay">치유와 휴식의 공간, 1인 관리실</p>
+            <div class="arrowbtn scroll_item_top_to_bottom">
+              <a href="#"><img src="./img/link_arrow.png" alt="link_arrow"></a>
+            </div>
+          </div>
+        </div>
+        <div class="right">
+          <figure>
+            <img src="./img/section_03_r.jpg" alt="section_03_r">
+          </figure>
+        </div>
+      </div>
+      <!-- //section03 -->
+
+      <!-- section04 -->
+      <div class="section04" id="section04">
+        <div class="left">
+          <div class="swiper img_mySwiper">
+            <div class="swiper-wrapper scroll_item_bottom_to_top">
+              <div class="swiper-slide"><img src="./img/section04_l_1.jpg" alt="section04_l_1"></div>
+              <div class="swiper-slide"><img src="./img/section04_l_2.jpg" alt="section04_l_2"></div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+          <div class="textbox">
+            <span class="scroll_item_top_to_bottom">수 많은 말보다 한번의 결과로 증명하는 스페셜리스트</span>
+            <p class="serif scroll_item_top_to_bottom t_delay">대한민국2%, 피부과전문의</p>
+            <span class="badge scroll_item_top_to_bottom"><img src="./img/badge.png" alt="badge"></span>
+            <div class="arrowbtn scroll_item_top_to_bottom">
+              <a href="#"><img src="./img/link_arrow.png" alt="link_arrow"></a>
+            </div>
+          </div>
+        </div>
+        <div class="right">
+          <figure>
+            <img src="./img/section04_r.jpg" alt="section_04_r">
+          </figure>
+        </div>
+      </div>
+      <!-- //section04 -->
+
+      <!-- section05 -->
+      <div class="section05" id="section05">
+        <div class="left scroll_item_bottom_to_top">
+          <figure class="first">
+            <img src="./img/section05_l.jpg" alt="section05_l">
+          </figure>
+        </div>
+        <div class="right">
+          <figure>
+            <img src="./img/section05gif.gif" alt="gif">
+          </figure>
+          <div class="textbox">
+            <div class="plus">
+              <p class="serif scroll_item_top_to_bottom">하이엔드 시술 장비</p>
+              <button type="button" class="plusbtn scroll_item_top_to_bottom"><img src="./img/plus_icon.png"
+                  alt="plus_icon"></button>
+            </div>
+            <span class="scroll_item_top_to_bottom t_delay" style="display: block;">찰나의 순간에도 무해하도록 아름다움은
+              무한하도록</span>
+            <div class="arrowbtn">
+              <a href="#"><img src="./img/link_arrow.png" alt="link_arrow"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- //section05 -->
+  </section>
+  <!-- //section -->
+
+  <!-- scrollslide -->
+  <div class="scrollslide pop" id="scrollslide">
+    <div class="bgscreen" style="opacity: 0.814815;"></div>
+    <div class="slide_list">
+      <div class="bgscreen2"></div>
+      <div class="ss_i">
+        <div class="text1">
+          <span>대한민국 2% 피부과 전문의</span>
+
+          <span>35,040시간, <br>
+            피부과 전문의가 온전히 피부를 이해하기 위한 시간. <br>
+            그리고 좋은 시술의 가치가 만들어지는 시간입니다. <br>
+            미모던피부과의 피부과 전문의는 수많은 진료 경험과 <br>
+            연구를 통해 오직 피부만을 고민한 피부과 전문의가 <br>
+            직접 진단하고 시술합니다.</span>
+
+          <span>수만 시간의 경험이 담긴 미모던피부과 전문의의 손끝은 <br>
+            특별함을 만듭니다.</span>
+        </div>
+
+        <div class="text2">
+          <span class="eng">Mimodern Doctors</span>
+          <span>
+            <strong>우영준</strong>
+            <span>대표원장</span>
+          </span>
+        </div>
+        <div class="img1">
+          <span>피부과전문의</span>
+          <img src="./img/scroll_1.jpg" alt="scroll_1">
+        </div>
+      </div>
+
+      <div class="ss_i">
+        <div class="text3">
+          <div class="textip">
+            <img src="./img/badge.png" alt="badge">
+            <p>
+              <strong>우영준</strong>
+              피부과전문의
+            </p>
+          </div>
+          <ul>
+            <li>피부과전문의</li>
+            <li>現 미모던 피부과 대표원장</li>
+            <li>前 리멤버 피부과 동탄점 원장</li>
+            <li>前 플라덴 성형외과 원장</li>
+            <li>前 리뉴미 피부과 잠실점 원장</li>
+            <li>성바오로병원, 서울성모병원, 인천성모병원 근무</li>
+            <li>.</li>
+            <li>.</li>
+            <li>.</li>
+            <a href="#">자세히 보기<span><img src="./img/right_arrow.png" alt="r_arrow"></span></a>
+          </ul>
+        </div>
+
+        <div class="img2">
+          <img src="./img/scroll_2.jpg" alt="scroll_2">
+        </div>
+
+        <div class="text4">
+          <span>손 끝으로 결과에 자신있게</span>
+          <span class="eng">MODERN <br>
+            DERMATOLOGY </span>
+
+          <span class="eng">MIMODERN</span>
+
+          <ul>
+            <li>
+              <img src="http://www.mimodern.co.kr/theme/mimodern/main/images/mw3_txt4_img1.png">
+              <a href="http://www.mimodern.co.kr/theme/mimodern/sub/sub1_2.php#doctor01">
+                <em>우영준</em>
+                <span>대표원장</span>
+              </a>
+            </li>
+            <li>
+              <img src="http://www.mimodern.co.kr/theme/mimodern/main/images/mw3_txt4_img3.png">
+              <a href="http://www.mimodern.co.kr/theme/mimodern/sub/sub1_2.php#doctor02">
+                <em>김성민</em>
+                <span>원장</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- //scrollslide -->
+
+  <!-- after slide section01 = af_ss01 -->
+  <div class="af_ss01" id="af_ss01">
+    <div class="textbox">
+      <p class="eng">Before & After</p>
+      <span>전문가의 손끝에서 탄생한 작품 <br>
+        미모던피부과의 시술 전후사진을 함께 확인해보세요 <br>
+        시술에 담은 진심은 작품이 됩니다</span>
+      <span class="notice">* 클릭하여 전후사진을 확인해보세요</span>
+    </div>
+    <div class="contents">
+      <button type="button" class="left_btn"><img src="./img/af_ss_left_arrow.png" alt="af_ss_left_arrow"></button>
+      <button type="button" class="right_btn"><img src="./img/af_ss_right_arrow.png" alt="af_ss_right_arrow"></button>
+      <div class="contents_i">
+        <div class="c1_wrap">
+          <div class="con con1_top">
+            <figure>
+              <img src="./img/af_ss1.jpg" alt="af_ss1">
+            </figure>
+            <div class="con_i_text">
+              <p>마스크와 <br>
+                헤어질 결심</p>
+              <span>by. 여드름 흉터치료</span>
+            </div>
+          </div>
+          <div class="con con1_bottom">
+            <figure>
+              <img src="./img/af_ss2.jpg" alt="af_ss2">
+            </figure>
+            <div class="con_i_text">
+              <p>과유불급 <br>
+                적당히의 미학</p>
+              <span>by. 필러시술</span>
+            </div>
+          </div>
+        </div>
+        <div class="con c2">
+          <figure>
+            <img src="./img/af_ss3.jpg" alt="af_ss3">
+          </figure>
+          <div class="con_i_text">
+            <p>치열했던 <br>
+              삶의 흔적이여!</p>
+            <span>by. 보톡스시술</span>
+          </div>
+        </div>
+        <div class="con c3">
+          <figure>
+            <img src="./img/af_ss4.jpg" alt="af_ss4">
+          </figure>
+          <div class="con_i_text">
+            <p>마흔이지만 <br>
+              스물여덟입니다.</p>
+            <span>by. 울쎄라 시술</span>
+          </div>
+        </div>
+        <div class="con c4">
+          <figure>
+            <img src="./img/af_ss5.jpg" alt="af_ss5">
+          </figure>
+          <div class="con_i_text">
+            <p>어느 <br>
+              귀차니스트의 고백.</p>
+            <span>by. 보톡스시술</span>
+          </div>
+        </div>
+        <div class="c1_wrap">
+          <div class="con con1_top">
+            <figure>
+              <img src="./img/af_ss1.jpg" alt="af_ss1">
+            </figure>
+            <div class="con_i_text">
+              <p>마스크와 <br>
+                헤어질 결심</p>
+              <span>by. 여드름 흉터치료</span>
+            </div>
+          </div>
+          <div class="con con1_bottom">
+            <figure>
+              <img src="./img/af_ss2.jpg" alt="af_ss2">
+            </figure>
+            <div class="con_i_text">
+              <p>과유불급 <br>
+                적당히의 미학</p>
+              <span>by. 필러시술</span>
+            </div>
+          </div>
+        </div>
+        <div class="con c2">
+          <figure>
+            <img src="./img/af_ss3.jpg" alt="af_ss3">
+          </figure>
+          <div class="con_i_text">
+            <p>치열했던 <br>
+              삶의 흔적이여!</p>
+            <span>by. 보톡스시술</span>
+          </div>
+        </div>
+        <div class="con c3">
+          <figure>
+            <img src="./img/af_ss4.jpg" alt="af_ss4">
+          </figure>
+          <div class="con_i_text">
+            <p>마흔이지만 <br>
+              스물여덟입니다.</p>
+            <span>by. 울쎄라 시술</span>
+          </div>
+        </div>
+        <div class="con c4">
+          <figure>
+            <img src="./img/af_ss5.jpg" alt="af_ss5">
+          </figure>
+          <div class="con_i_text">
+            <p>어느 <br>
+              귀차니스트의 고백.</p>
+            <span>by. 보톡스시술</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- // after slide section01 = af_ss01 -->
+
+  <!-- after slide section02 = af_ss02 -->
+  <div class="af_ss02" id="af_ss02">
+    <div class="textbox">
+      <p class="eng">Real Review</p>
+      <span>고객의 이야기에 온전히 귀 기울이겠습니다.</span>
+    </div>
+    <div class="scroll_list">
+      <div class="top_sl">
+        <ul>
+          <a
+            href="https://pcmap.place.naver.com/hospital/1388288696/review/visitor?from=map&fromPanelNum=2&ts=1684746575258">
+            <li class="inner_text">
+              <p>
+                피부 트러플로 급하게 검색해서 방문했는데 의사분이랑 모두 친절하고 과하게 처방하지 않으셔서 더 좋아요!
+                관리 받는 피부과도 변경하려구요!ㅎㅎ 수서역에서도 가깝고 역이랑 연결되어 있어서 접근성도 좋습니다 재방문 의사 100%입니다.
+              </p>
+              <div>
+                <span class="icon"><img src="./img/review_icon.png" alt="review_icon">
+                </span>
+                <span class="date">5.15.월</span>
+              </div>
+            </li>
+          </a>
+          <a
+            href="https://pcmap.place.naver.com/hospital/1388288696/review/visitor?from=map&fromPanelNum=2&ts=1684746575258">
+            <li class="inner_text">
+              <p>
+                원장님이 아주 섬세하시구 데스크직원분들도 너무 친절하셔서 올때마다 기분이 좋아집니당 ㅎㅎ
+                저도 발견 못한것도 발견해서 열심히 진료해주셔서 감사하구 저희 어머니도 여기만 오실만큼 과잉진료 없이 진료 잘봐주십니다.
+              </p>
+              <div>
+                <span class="icon"><img src="./img/review_icon.png" alt="review_icon">
+                </span>
+                <span class="date">5.6.토</span>
+              </div>
+            </li>
+          </a>
+          <a
+            href="https://pcmap.place.naver.com/hospital/1388288696/review/visitor?from=map&fromPanelNum=2&ts=1684746575258">
+            <li class="inner_text">
+              <p>
+                수서역 수서역지하철과 바로 연결된 미모던피부과 건물이 왕 깨끗하구 첫방문이지만 괜찮은듯?
+                원장님 뵙거서 문신제거랑 제로이드 처방했어요 합리적인 가격이라 고민없이 5회결제했습니당 친절해서 더조아용 ~~ㅋㅋ
+                다른것두 마구마구 하고픔
+              </p>
+              <div>
+                <span class="icon"><img src="./img/review_icon.png" alt="review_icon">
+                </span>
+                <span class="date">5.6.토</span>
+              </div>
+            </li>
+          </a>
+          <a
+            href="https://pcmap.place.naver.com/hospital/1388288696/review/visitor?from=map&fromPanelNum=2&ts=1684746575258">
+            <li class="inner_text">
+              <p>
+                피부가 정말 좋아지고 있어요! 돈을 쓴다면 돈 쓴 효과가 있어야 하는데 정말 눈에 띄게 피부가 좋아집니다!!!! 우영준 원장님 이 딱 이거이거 하면 됩니다 해서 루비랑 턱보톡스랑 했는데
+                예뻐졌다는 소리 정~~말 많이 들어요👍 가족들도 다 같이 갔고 친구들한테도 소개하는 중입니닼ㅋㅋㅋ 진짜 시술은 원장님이 직접 해주시고 케어도 정말 잘해주세요! 원장님 정말정말 친절하시고
+                설명도 잘해주시는데 직원분들도 다 친절한 곳이에요😍 우리동네에 있어서 고마운 피부과❤
+              </p>
+              <div>
+                <span class="icon"><img src="./img/review_icon.png" alt="review_icon">
+                </span>
+                <span class="date">4.27.목</span>
+              </div>
+            </li>
+          </a>
+          <a
+            href="https://pcmap.place.naver.com/hospital/1388288696/review/visitor?from=map&fromPanelNum=2&ts=1684746575258">
+            <li class="inner_text">
+              <p>
+                루비레이져, 토닝 받고있는데 데스크 선생님들 모두 친절하시고 관리사분들도 너무 좋으세요.!!
+                시술또한 천천히 설명해주셔서 겁많은데 잘 받고있습니다 ㅎㅎ 감사합니다!!
+              </p>
+              <div>
+                <span class="icon"><img src="./img/review_icon.png" alt="review_icon">
+                </span>
+                <span class="date">4.20목</span>
+              </div>
+            </li>
+          </a>
+          <a
+            href="https://pcmap.place.naver.com/hospital/1388288696/review/visitor?from=map&fromPanelNum=2&ts=1684746575258">
+            <li class="inner_text">
+              <p>
+                피부과 여러군데 다녀봤는데 여기에 정착했어요! 인테리어도 깔끔하고,
+                직원분들도 늘 친절하시고 원장님이 자세하고 친절하게 상담해주십니다.
+                보톡스도 맞아보고 레이저도 여러종류 맞아봤는데 꼼꼼히 해주셔서 늘 효과도 좋고 만족스럽스러워서 이번에 엄마도 같이 데려왔어요~
+                곧 이사가는데 여기로 계속 다닐 생각입니다 추천해요!
+              </p>
+              <div>
+                <span class="icon"><img src="./img/review_icon.png" alt="review_icon">
+                </span>
+                <span class="date">4.10.월</span>
+              </div>
+            </li>
+          </a>
+          <a
+            href="https://pcmap.place.naver.com/hospital/1388288696/review/visitor?from=map&fromPanelNum=2&ts=1684746575258">
+            <li class="inner_text">
+              <p>
+                피부 트러플로 급하게 검색해서 방문했는데 의사분이랑 모두 친절하고 과하게 처방하지 않으셔서 더 좋아요!
+                관리 받는 피부과도 변경하려구요!ㅎㅎ 수서역에서도 가깝고 역이랑 연결되어 있어서 접근성도 좋습니다 재방문 의사 100%입니다.
+              </p>
+              <div>
+                <span class="icon"><img src="./img/review_icon.png" alt="review_icon">
+                </span>
+                <span class="date">5.15.월</span>
+              </div>
+            </li>
+          </a>
+          <a
+            href="https://pcmap.place.naver.com/hospital/1388288696/review/visitor?from=map&fromPanelNum=2&ts=1684746575258">
+            <li class="inner_text">
+              <p>
+                원장님이 아주 섬세하시구 데스크직원분들도 너무 친절하셔서 올때마다 기분이 좋아집니당 ㅎㅎ
+                저도 발견 못한것도 발견해서 열심히 진료해주셔서 감사하구 저희 어머니도 여기만 오실만큼 과잉진료 없이 진료 잘봐주십니다.
+              </p>
+              <div>
+                <span class="icon"><img src="./img/review_icon.png" alt="review_icon">
+                </span>
+                <span class="date">5.6.토</span>
+              </div>
+            </li>
+          </a>
+          <a
+            href="https://pcmap.place.naver.com/hospital/1388288696/review/visitor?from=map&fromPanelNum=2&ts=1684746575258">
+            <li class="inner_text">
+              <p>
+                수서역 수서역지하철과 바로 연결된 미모던피부과 건물이 왕 깨끗하구 첫방문이지만 괜찮은듯?
+                원장님 뵙거서 문신제거랑 제로이드 처방했어요 합리적인 가격이라 고민없이 5회결제했습니당 친절해서 더조아용 ~~ㅋㅋ
+                다른것두 마구마구 하고픔
+              </p>
+              <div>
+                <span class="icon"><img src="./img/review_icon.png" alt="review_icon">
+                </span>
+                <span class="date">5.6.토</span>
+              </div>
+            </li>
+          </a>
+          <a
+            href="https://pcmap.place.naver.com/hospital/1388288696/review/visitor?from=map&fromPanelNum=2&ts=1684746575258">
+            <li class="inner_text">
+              <p>
+                피부가 정말 좋아지고 있어요! 돈을 쓴다면 돈 쓴 효과가 있어야 하는데 정말 눈에 띄게 피부가 좋아집니다!!!! 우영준 원장님 이 딱 이거이거 하면 됩니다 해서 루비랑 턱보톡스랑 했는데
+                예뻐졌다는 소리 정~~말 많이 들어요👍 가족들도 다 같이 갔고 친구들한테도 소개하는 중입니닼ㅋㅋㅋ 진짜 시술은 원장님이 직접 해주시고 케어도 정말 잘해주세요! 원장님 정말정말 친절하시고
+                설명도 잘해주시는데 직원분들도 다 친절한 곳이에요😍 우리동네에 있어서 고마운 피부과❤
+              </p>
+              <div>
+                <span class="icon"><img src="./img/review_icon.png" alt="review_icon">
+                </span>
+                <span class="date">4.27.목</span>
+              </div>
+            </li>
+          </a>
+        </ul>
+      </div>
+      <div class="bottom_sl">
+        <ul>
+          <a
+            href="https://pcmap.place.naver.com/hospital/1388288696/review/visitor?from=map&fromPanelNum=2&ts=1684746575258">
+            <li class="inner_text">
+              <p>
+                인모드했는데 엄청 꼼꼼하게 해주세요! 다른데에서 했을때는 마취크림 한 뒤에 했는데도 너무 아파서 울었는데
+                이번에는 많이 안아팠고 멍도 덜 들었어요 기계 사용중이라 하셔서 좀 대기하게 됐는데
+                그냥 기다리게 하지 않고 재생레이저해주신다고 해서 그거 받으면서 누워있었어요ㅎㅎ
+                바쁜 와중에 다들 친절하게 해주셔서 너무 감사했습니다
+              </p>
+              <div>
+                <span class="icon"><img src="./img/review_icon.png" alt="review_icon">
+                </span>
+                <span class="date">4.1.토</span>
+              </div>
+            </li>
+          </a>
+          <a
+            href="https://pcmap.place.naver.com/hospital/1388288696/review/visitor?from=map&fromPanelNum=2&ts=1684746575258">
+            <li class="inner_text">
+              <p>
+                실장님 상담도 친절하시고~원하는 조건의 시술 예약하여서 좋습니다. 피부과 시설도 깨끗하니 좋아요~~
+                브이빔 받았는데 의사선생님 진료도, 시술도 꼼꼼하게 더 챙겨주셨습니다. 감사합니다❤️
+              </p>
+              <div>
+                <span class="icon"><img src="./img/review_icon.png" alt="review_icon">
+                </span>
+                <span class="date">3.25.토</span>
+              </div>
+            </li>
+          </a>
+          <a
+            href="https://pcmap.place.naver.com/hospital/1388288696/review/visitor?from=map&fromPanelNum=2&ts=1684746575258">
+            <li class="inner_text">
+              <p>
+                병원 인테리어도 고급스럽고 모던해요 :) 엄청 친절하시고 긴 대기없이 시술 가능했습니다. 가족과 함께 다시 왓어요 ㅎㅎ
+                주변 지인들에게도 추천하려합니다.
+              </p>
+              <div>
+                <span class="icon"><img src="./img/review_icon.png" alt="review_icon">
+                </span>
+                <span class="date">3.11.토</span>
+              </div>
+            </li>
+          </a>
+          <a
+            href="https://pcmap.place.naver.com/hospital/1388288696/review/visitor?from=map&fromPanelNum=2&ts=1684746575258">
+            <li class="inner_text">
+              <p>
+                수서역에 바로 병원이 위치하고 있어요. 근접성이 뛰어나서 방문했는데 병원이 시설과 분위기가 아주 쾌적합니다.
+                특히 원장님이 친절합니다.
+              </p>
+              <div>
+                <span class="icon"><img src="./img/review_icon.png" alt="review_icon">
+                </span>
+                <span class="date">3.11.토</span>
+              </div>
+            </li>
+          </a>
+          <a
+            href="https://pcmap.place.naver.com/hospital/1388288696/review/visitor?from=map&fromPanelNum=2&ts=1684746575258">
+            <li class="inner_text">
+              <p>
+                직원분들 친절하시고 시설도 깔끔해요. 체계적이고 편안해서 시술 잘 받고 왔습니다.
+                기미잡티고민으로 레이저토닝받는데 남은 10번 갈때마다 기분좋게 다녀올수있을거같아요. 시술 효과도 기대해볼게요!!
+              </p>
+              <div>
+                <span class="icon"><img src="./img/review_icon.png" alt="review_icon">
+                </span>
+                <span class="date">3.4.토</span>
+              </div>
+            </li>
+          </a>
+          <a
+            href="https://pcmap.place.naver.com/hospital/1388288696/review/visitor?from=map&fromPanelNum=2&ts=1684746575258">
+            <li class="inner_text">
+              <p>
+                인모드했는데 엄청 꼼꼼하게 해주세요! 다른데에서 했을때는 마취크림 한 뒤에 했는데도 너무 아파서 울었는데
+                이번에는 많이 안아팠고 멍도 덜 들었어요 기계 사용중이라 하셔서 좀 대기하게 됐는데
+                그냥 기다리게 하지 않고 재생레이저해주신다고 해서 그거 받으면서 누워있었어요ㅎㅎ
+                바쁜 와중에 다들 친절하게 해주셔서 너무 감사했습니다
+              </p>
+              <div>
+                <span class="icon"><img src="./img/review_icon.png" alt="review_icon">
+                </span>
+                <span class="date">4.1.토</span>
+              </div>
+            </li>
+          </a>
+          <a
+            href="https://pcmap.place.naver.com/hospital/1388288696/review/visitor?from=map&fromPanelNum=2&ts=1684746575258">
+            <li class="inner_text">
+              <p>
+                실장님 상담도 친절하시고~원하는 조건의 시술 예약하여서 좋습니다. 피부과 시설도 깨끗하니 좋아요~~
+                브이빔 받았는데 의사선생님 진료도, 시술도 꼼꼼하게 더 챙겨주셨습니다. 감사합니다❤️
+              </p>
+              <div>
+                <span class="icon"><img src="./img/review_icon.png" alt="review_icon">
+                </span>
+                <span class="date">3.25.토</span>
+              </div>
+            </li>
+          </a>
+          <a
+            href="https://pcmap.place.naver.com/hospital/1388288696/review/visitor?from=map&fromPanelNum=2&ts=1684746575258">
+            <li class="inner_text">
+              <p>
+                병원 인테리어도 고급스럽고 모던해요 :) 엄청 친절하시고 긴 대기없이 시술 가능했습니다. 가족과 함께 다시 왓어요 ㅎㅎ
+                주변 지인들에게도 추천하려합니다.
+              </p>
+              <div>
+                <span class="icon"><img src="./img/review_icon.png" alt="review_icon">
+                </span>
+                <span class="date">3.11.토</span>
+              </div>
+            </li>
+          </a>
+          <a
+            href="https://pcmap.place.naver.com/hospital/1388288696/review/visitor?from=map&fromPanelNum=2&ts=1684746575258">
+            <li class="inner_text">
+              <p>
+                수서역에 바로 병원이 위치하고 있어요. 근접성이 뛰어나서 방문했는데 병원이 시설과 분위기가 아주 쾌적합니다.
+                특히 원장님이 친절합니다.
+              </p>
+              <div>
+                <span class="icon"><img src="./img/review_icon.png" alt="review_icon">
+                </span>
+                <span class="date">3.11.토</span>
+              </div>
+            </li>
+          </a>
+          <a
+            href="https://pcmap.place.naver.com/hospital/1388288696/review/visitor?from=map&fromPanelNum=2&ts=1684746575258">
+            <li class="inner_text">
+              <p>
+                직원분들 친절하시고 시설도 깔끔해요. 체계적이고 편안해서 시술 잘 받고 왔습니다.
+                기미잡티고민으로 레이저토닝받는데 남은 10번 갈때마다 기분좋게 다녀올수있을거같아요. 시술 효과도 기대해볼게요!!
+              </p>
+              <div>
+                <span class="icon"><img src="./img/review_icon.png" alt="review_icon">
+                </span>
+                <span class="date">3.4.토</span>
+              </div>
+            </li>
+          </a>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- //after slide section02 = af_ss02 -->
+
+  <!-- after slide section03 = af_ss03 -->
+  <div class="af_ss03" id="af_ss03">
+    <div class="left">
+      <div class="left_i">
+        <div class="addr">
+          <span class="main eng">Location</span>
+          <span class="de_addr">서울 특별시 강남구 광명로 280, 로즈데일빌딩 2층</span>
+          <span class="information">미모던피부과는 수서역 4번출구와 연결되어 있습니다.</span>
+          <span class="number"><span class="eng">TEL.</span> 02-6207-5238</span>
+        </div>
+        <div class="time">
+          <span class="main eng">Time</span>
+          <div class="open_to_close">
+            <div class="time_inner">
+              <p>월&nbsp;&nbsp;목&nbsp;&nbsp;금</p>
+              <span><span class="eng">AM</span> 10:00 - <span class="eng">PM</span> 08:00</span>
+            </div>
+            <div class="time_inner">
+              <p>화&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;수</p>
+              <span><span class="eng">AM</span> 10:00 - <span class="eng">PM</span> 07:00</span>
+            </div>
+            <div class="time_inner">
+              <p>토&nbsp;&nbsp;요&nbsp;&nbsp;일</p>
+              <span><span class="eng">AM</span> 10:00 - <span class="eng">PM</span> 03:00</span>
+            </div>
+            <div class="time_inner">
+              <p>점심시간</p>
+              <span><span class="eng">PM</span> 01:00 - <span class="eng">PM</span> 02:00</span>
+            </div>
+          </div>
+          <span class="notice">
+            일 · 공휴일은 휴진입니다.
+            <br>
+            토요일은 점심시간 없이 진료합니다.
+          </span>
+        </div>
+      </div>
+    </div>
+    <div class="right">
+      <span class="main eng">Location</span>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3165.8711014387995!2d127.10046947635911!3d37.48736802866311!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca5e2151c6c83%3A0x646c0db9faf949e7!2z66-466qo642Y7ZS867aA6rO87J2Y7JuQ!5e0!3m2!1sko!2skr!4v1698225338636!5m2!1sko!2skr"
+        style="width:100%; height:100%; border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+  <!-- //after slide section03 = af_ss03 -->
+
+  <!-- footer -->
+  <footer>
+    <div class="footer_i">
+      <div class="left">
+        <span class="f_logo">상호 : 미모던피부과의원</span>
+        <ul>
+          <div class="media1200_box01">
+            <li>대표 : 우영준</li>
+            <li>사업자등록번호 : 101-36-97622</li>
+          </div>
+          <div class="media1200_box02">
+            <li>대표번호 : 02-6207-5238</li>
+            <li>E-mail : goodyj82@gmail.com</li>
+          </div>
+        </ul>
+        <span class="f_addr">주소 : 서울특별시 강남구 광평로 280, 2층 205호 (수서동, 로즈데일빌딩)</span>
+        <div>
+          <span class="f_copy">COPYRIGHTⓒ2023mimodern.co.kr Copyright All Rights Reserved.</span>
+          <span class="f_copy2">Designed by. FINEAPPLE PTL.</span>
+        </div>
+        <div class="f_icon">
+          <div class="f_logo">
+            <figure>
+              <img src="http://www.mimodern.co.kr/theme/mimodern/main/images/top_logo.png" alt="mimodern">
+            </figure>
+          </div>
+          <div>
+            <a href="https://www.gdweb.co.kr/sub/view.asp?Txt_fgbn=5&str_no=20552" target="_blank">
+              <figure>
+                <img src="./img/footer_gdweb_icon.png" alt="footer_gdweb_icon">
+              </figure>
+              <span>지디웹어워드 수상</span>
+            </a>
+          </div>
+          <div>
+            <a href="#" target="_blank">
+              <figure>
+                <img src="./img/footer_iaward_icon.png" alt="footer_iaward_icon">
+              </figure>
+              <span>아이어워즈 2023 대상 수상</span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="right">
+        <ul>
+          <li><a href="#">이용약관</a></li>
+          <li><a href="#">개인정보처리방침</a></li>
+          <li><a href="#">비급여수기표</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+  <!-- //footer -->
+
+  <!-- fixed -->
+  <div class="fixed_notice">
+    <div class="icon"><img src="./img/id_notice.png" alt="notice"></div>
+    <span>클론코딩연습용 페이지입니다.</span>
+    <div class="hidden"></div>
+  </div>
+
+  <div class="reserve">
+    <div>
+      <img src="./img/fixed_reserve_button.png" alt="fixed_reserve_button">
+      <span class="eng">reserve</span>
+    </div>
+    <div>
+      <p>예약 및 상담문의</p>
+    </div>
+  </div>
+
+
+  <div class="quick_wrap">
+
+    <div class="quick_menu_wrap">
+
+      <ul class="quick_menu">
+
+        <li class="quick_menu_list quick_menu_li_insta">
+          <a href="https://www.instagram.com/mimodern_skin/" target="_blank">
+            <p class="normal">인스타그램</p>
+            <img src="./img/q_insta.png" alt="q_insta">
+          </a>
+        </li>
+
+        <li class="quick_menu_list quick_menu_li_blog">
+          <a href="https://blog.naver.com/mimodern_skin" target="_blank">
+            <p class="normal">미모던&nbsp;블로그</p>
+            <img src="./img/q_blog.png" alt="q_blog">
+          </a>
+        </li>
+
+        <li class="quick_menu_list quick_menu_li_blog2">
+          <a href="https://blog.naver.com/mimodernbeauty" target="_blank">
+            <p class="normal">대표원장&nbsp;블로그</p>
+            <img src="./img/q_blog2.png" alt="q_blog2">
+          </a>
+        </li>
+
+        <li class="quick_menu_list quick_menu_li_kakao">
+          <a href="https://pf.kakao.com/_jChHs" target="_blank">
+            <p class="normal">카카오톡</p>
+            <img src="./img/q_kakao.png" alt="q_kakao">
+          </a>
+        </li>
+
+        <li class="quick_menu_list quick_menu_li_targetmove">
+          <i class="fa-solid fa-arrow-up-wide-short"></i>
+          <ul class="quick_targetmove">
+            <li><a href="#main" class="eng">Top</a></li>
+            <li><a href="#section01" class="eng">Signature Program</a></li>
+            <li><a href="#section02" class="eng">Mimodern Speciality</a></li>
+            <li><a href="#scrollslide" class="eng">Mimodern Doctors</a></li>
+            <li><a href="#af_ss01" class="eng">Before & After</a></li>
+            <li><a href="#af_ss02" class="eng">Review</a></li>
+            <li><a href="#af_ss03" class="eng">Information</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <div class="open_btn">
+      <div class="bounce01"></div>
+      <div class="bounce02"></div>
+    </div>
+  </div>
+  <!-- //fixed -->
+
+  <!-- lazer popup -->
+  <div class="lazer_wrap">
+    <div class="background"></div>
+    <div class="layout_wrapper">
+      <div class="closebtn">
+        <p class="eng">Close</p>
+        <span><img src="./img/lazer_close.png" alt="lazer_close"></span>
+      </div>
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <figure>
+              <img src="./img/lazer1.jpg" alt="lazer1">
+            </figure>
+            <div class="textbox">
+              <h2>울쎄라</h2>
+              <span>#리프팅 #주름 #탄력</span>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <figure>
+              <img src="./img/lazer2.jpg" alt="lazer2">
+            </figure>
+            <div class="textbox">
+              <h2>인모드</h2>
+              <span>#처진 볼살 리프팅 #이중턱<br>
+                #주름 #탄력</span>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <figure>
+              <img src="./img/lazer3.jpg" alt="lazer3">
+            </figure>
+            <div class="textbox">
+              <h2>올리지오</h2>
+              <span>#주름 #탄력 #리프팅 <br>
+                #모공 #피부 #결</span>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <figure>
+              <img src="./img/lazer4.jpg" alt="lazer4">
+            </figure>
+            <div class="textbox">
+              <h2>LDM</h2>
+              <span>#주름 #탄력 #리프팅 <br>
+                #모공 #피부 #결</span>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <figure>
+              <img src="./img/lazer5.jpg" alt="lazer5">
+            </figure>
+            <div class="textbox">
+              <h2>루비 레이저</h2>
+              <span>#주름 #탄력 #리프팅 <br>
+                #모공 #피부 #결</span>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <a href="http://www.mimodern.co.kr/theme/mimodern/sub/sub1_3.php" target="_blank">
+              <img src="./img/lazer_more.png" alt="lazer_more">
+            </a>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+  </div>
+  <!-- //lazer popup -->
+
+  <!-- ad popup -->
+
+  <div class="ad_popup">
+    <div class="ad_background"></div>
+    <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper ad_mySwiper2">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="./img/ad_popup1.png" alt="ad_popup1" />
+        </div>
+        <div class="swiper-slide">
+          <img src="./img/ad_popup2.png" alt="ad_popup2" />
+        </div>
+        <div class="swiper-slide">
+          <img src="./img/ad_popup3.png" alt="ad_popup3" />
+        </div>
+      </div>
+    </div>
+    <div thumbsSlider="" class="thumb_swiper ad_mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <p>겨울 이벤트</p>
+        </div>
+        <div class="swiper-slide">
+          <p>울트라 펄스 앙코르 도입기념 이벤트</p>
+        </div>
+        <div class="swiper-slide">
+          <p>수능 이벤트</p>
+        </div>
+      </div>
+    </div>
+    <div class="close">
+      <p>하루동안 보지 않기</p>
+      <span><img src="./img/ad_popup_close.svg" alt="ad_popup_close"></span>
+    </div>
+  </div>
+
+  <div class="ad_popup_mob">
+    <div class="ad_background"></div>
+    <div class="absolute">
+      <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper ad_mySwiper2">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="./img/ad_popup1_mob.png" alt="ad_popup1_mob" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./img/ad_popup2_mob.png" alt="ad_popup2_mob" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./img/ad_popup3_mob.png" alt="ad_popup3_mob" />
+          </div>
+        </div>
+      </div>
+      <div class="close">
+        <p>하루동안 보지 않기</p>
+        <span><img src="./img/ad_popup_close.svg" alt="ad_popup_close"></span>
+      </div>
+    </div>
+  </div>
+
+  <!-- //ad popup -->
+</body>
+
+</html>
