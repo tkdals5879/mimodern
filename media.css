@@ -234,7 +234,7 @@
 
 	section .section01 .contents .box a {
 		justify-self: center;
-		font-size: 3rem;
+		font-size: 5vw;
 	}
 
 	section .section01 .contents .box a span {
@@ -250,17 +250,18 @@
 	}
 
 	section .section02 .contents .left {
+		padding-left: 0;
 		margin-bottom: 10rem;
 		margin-top: 5rem;
 	}
 
 	section .section02 .contents .left p {
-		font-size: 3rem;
+		font-size: 6vw;
 		margin-bottom: 5rem;
 	}
 
 	section .section02 .contents .left span {
-		font-size: 2.5rem;
+		font-size: 5vw;
 	}
 
 	section .section02 .contents .left .essence_btn {
@@ -772,6 +773,22 @@
 }
 
 @media (max-width:1000px) {
+	header .header_i {
+		padding: 0 1rem;
+	}
+
+	section .section01 .contents .box .box_inner_text h2 {
+		font-size: 1.5rem;
+	}
+
+	section .section01 .contents .box .box_inner_text h2 span {
+		font-size: 2rem;
+	}
+
+	section .section01 .contents .box .box_inner_text p {
+		font-size: 1.2rem;
+	}
+
 	section .section04 .left .textbox .badge {
 		top: -30%;
 		left: 50%;
@@ -784,6 +801,19 @@
 
 	/* ▽ media 767px - main */
 
+	header .header_i{
+		align-items: center;
+	}
+
+	header .header_i .logo{
+		margin-top: 0;
+		padding-top: 1rem;
+	}
+
+	main .mainbg_centerbox{
+		height: 100%;
+	}
+
 	main .maintext h2 {
 		font-size: 3.5rem;
 		width: fit-content;
@@ -794,20 +824,121 @@
 		display: none;
 	}
 
-	section .section02 .contents .left span {
-		font-size: 2rem;
+	section .section01 .text h3 {
+		font-size: 1.5rem;
 	}
 
+	section .section01 .text span {
+		font-size: 1rem;
+		font-weight: 500;
+	}
+
+	section .section01 .text p {
+		font-size: 1.2rem;
+	}
+
+	section .section02 .contents .left .essence_btn {
+		padding: 0.5 1.5rem;
+	}
+
+
+	section .section02 .contents .left .essence_btn a {
+		font-size: 1rem;
+	}
+
+	section .section02 .contents .right .textbox p {
+		font-size: 1.5rem;
+	}
+
+	section .section02 .contents .right .textbox .arrowbtn,
+	section .section03 .left .textbox .arrowbtn,
+	section .section04 .left .textbox .arrowbtn,
+	section .section05 .right .textbox .arrowbtn {
+		width: 32px;
+		height: 32px;
+	}
+
+	section .section02 .contents .right .textbox .arrowbtn a,
+	section .section03 .left .textbox .arrowbtn a,
+	section .section04 .left .textbox .arrowbtn a,
+	section .section05 .right .textbox .arrowbtn a {
+		width: 32px;
+	}
+
+
 	section .section02 .contents .right .textbox span {
-		font-size: 1.8rem;
+		font-size: 1.3rem;
+	}
+
+	section .section02 .contents .right .img_mySwiper {
+		width: 100vw;
+	}
+
+	section .section03 {
+		width: 100%;
 	}
 
 	section .section03 .left .textbox p {
-		font-size: 2.8rem;
+		font-size: 1.5rem;
+	}
+
+	section .section03 .left .textbox span {
+		font-size: 1.3rem;
+	}
+
+	section .section03 .left .img_mySwiper {
+		width: 100vw;
+	}
+
+	section .section04 .left .img_mySwiper {
+		width: 100vw;
+	}
+
+	section .section04 .left .textbox .badge {
+		left: unset;
+		right: 1rem;
+	}
+
+	section .section04 .left .textbox p {
+		font-size: 1.5rem;
 	}
 
 	section .section04 .left .textbox span:first-child {
-		font-size: 1.8rem;
+		font-size: 1.3rem;
+	}
+
+	section .section05 .right .textbox p {
+		font-size: 1.5rem;
+	}
+
+	section .section05 .right .textbox span {
+		font-size: 1.3rem;
+	}
+
+	.scrollslide .slide_list {
+		padding: 1rem;
+	}
+
+	.scrollslide .slide_list .text1 {
+		width: fit-content;
+		margin-top: 3rem;
+	}
+
+	.scrollslide .slide_list .ss_i .text3 {
+		left: 50%;
+		transform: translateX(-50%);
+	}
+
+	.scrollslide .slide_list .text3 .textip>p {
+		font-size: 1rem;
+	}
+
+	.scrollslide .slide_list .text3 .textip>p>strong {
+		padding-right: 30px;
+	}
+
+	.scrollslide .slide_list .text3 a {
+		font-size: 1rem;
 	}
 
 	.af_ss01 .contents .contents_i .con_i_text p {
@@ -842,13 +973,24 @@
 		font-size: 3vw;
 	}
 
+	.af_ss03 .right .main {
+		padding-top: 4rem;
+		padding-bottom: 2rem;
+	}
+
 	.af_ss03 .left .left_i {
-		padding: 7rem 1rem;
+		padding: 3rem 1rem;
 	}
 
-	.scrollslide .slide_list .text1 {
-		width: fit-content;
+	.af_ss03 .left .left_i .addr .number.top_to_bottom{
+		margin: 1rem auto;
 	}
 
+	.af_ss03 .left .left_i .time .main{
+		margin-top: 5rem;
+	}
 
+	.af_ss03 .left .left_i .time .open_to_close.top_to_bottom div{
+		margin: 0 auto;
+	}
 }
